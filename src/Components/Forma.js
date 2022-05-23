@@ -17,7 +17,7 @@ export default function Forma({ dodaj }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     Unosenje(drzava);
-    dodaj(drzava, brojac.current);
+    dodaj(drzava);
   };
 
   useEffect(() => {
