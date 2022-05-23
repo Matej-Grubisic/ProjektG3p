@@ -9,8 +9,7 @@ export default function Forma({ dodaj }) {
   const [unos, setUnos] = useState(" ");
   const brojac = useRef();
   const [counter, setCounter] = useState();
-  //moraju biti {} zagrade zbog nekog errora koji [] zagrade uzrokuju
-  //moraju biti {} zagrade zbog nekog errora koji [] zagrade uzrokuju
+
   const Unosenje = (primljen) => {
     setUnos(primljen);
   };

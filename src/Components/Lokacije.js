@@ -9,7 +9,6 @@ import Forma from "./Forma";
 
 export default function Lokacije() {
   const [drzava1, postaviDrzavu] = useState(" ");
-  const counter = useRef();
 
   const dodaj1 = (drzava1, counter) => {
     postaviDrzavu(drzava1, counter);
